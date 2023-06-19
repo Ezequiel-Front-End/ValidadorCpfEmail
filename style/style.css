@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#myFormEmail{
+    margin-top: 0.50rem;
+}
+
+input{
+    padding: 1rem;
+    outline: none;
+}
+
+
+input[type='submit']{
+    border: none;
+    background: rgba(0, 0, 0, 0.836);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type='submit']:hover{
+    background: green;
+}
